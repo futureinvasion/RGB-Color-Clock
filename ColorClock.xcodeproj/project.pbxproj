@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C11F32081A4160DF00B528E5 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C11F32071A4160DF00B528E5 /* OpenSans-Light.ttf */; };
 		C1C66B971A41376F00C592EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C66B961A41376F00C592EB /* AppDelegate.swift */; };
 		C1C66B991A41376F00C592EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C66B981A41376F00C592EB /* ViewController.swift */; };
 		C1C66B9C1A41376F00C592EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C66B9A1A41376F00C592EB /* Main.storyboard */; };
 		C1C66B9E1A41376F00C592EB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C66B9D1A41376F00C592EB /* Images.xcassets */; };
 		C1C66BA11A41376F00C592EB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1C66B9F1A41376F00C592EB /* LaunchScreen.xib */; };
 		C1C66BAD1A41376F00C592EB /* ColorClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C66BAC1A41376F00C592EB /* ColorClockTests.swift */; };
+		C1C66BB71A414CBB00C592EB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C66BB61A414CBB00C592EB /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C11F32071A4160DF00B528E5 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
 		C1C66B911A41376F00C592EB /* ColorClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C66B951A41376F00C592EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1C66B961A41376F00C592EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		C1C66BA61A41376F00C592EB /* ColorClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1C66BAB1A41376F00C592EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1C66BAC1A41376F00C592EB /* ColorClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorClockTests.swift; sourceTree = "<group>"; };
+		C1C66BB61A414CBB00C592EB /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +81,12 @@
 		C1C66B931A41376F00C592EB /* ColorClock */ = {
 			isa = PBXGroup;
 			children = (
+				C1C66BB61A414CBB00C592EB /* UIColorExtension.swift */,
 				C1C66B961A41376F00C592EB /* AppDelegate.swift */,
 				C1C66B981A41376F00C592EB /* ViewController.swift */,
 				C1C66B9A1A41376F00C592EB /* Main.storyboard */,
-				C1C66B9D1A41376F00C592EB /* Images.xcassets */,
 				C1C66B9F1A41376F00C592EB /* LaunchScreen.xib */,
+				C1C66B9D1A41376F00C592EB /* Images.xcassets */,
 				C1C66B941A41376F00C592EB /* Supporting Files */,
 			);
 			path = ColorClock;
@@ -90,6 +95,7 @@
 		C1C66B941A41376F00C592EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C11F32071A4160DF00B528E5 /* OpenSans-Light.ttf */,
 				C1C66B951A41376F00C592EB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,7 @@
 			files = (
 				C1C66B9C1A41376F00C592EB /* Main.storyboard in Resources */,
 				C1C66BA11A41376F00C592EB /* LaunchScreen.xib in Resources */,
+				C11F32081A4160DF00B528E5 /* OpenSans-Light.ttf in Resources */,
 				C1C66B9E1A41376F00C592EB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,6 +221,7 @@
 			files = (
 				C1C66B991A41376F00C592EB /* ViewController.swift in Sources */,
 				C1C66B971A41376F00C592EB /* AppDelegate.swift in Sources */,
+				C1C66BB71A414CBB00C592EB /* UIColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +347,7 @@
 				INFOPLIST_FILE = ColorClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c14a3271-27a7-4779-a47c-a9241b74ebcc";
 			};
 			name = Debug;
 		};
@@ -349,6 +358,7 @@
 				INFOPLIST_FILE = ColorClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c14a3271-27a7-4779-a47c-a9241b74ebcc";
 			};
 			name = Release;
 		};
@@ -405,6 +415,7 @@
 				C1C66BB21A41376F00C592EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1C66BB31A41376F00C592EB /* Build configuration list for PBXNativeTarget "ColorClockTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +424,7 @@
 				C1C66BB51A41376F00C592EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

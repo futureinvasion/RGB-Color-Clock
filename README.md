@@ -14,6 +14,6 @@ when the time is
 Thank You
 ---
 
-- [UIColor+Hex](https://github.com/yeahdongcn/UIColor-Hex-Swift) by @yeahdongcn. Convenience method for creating autoreleased color using RGBA hex string
-- [Font OpenSans](http://www.fontsquirrel.com/fonts/open-sans)
+- [UIColor+Hex](https://github.com/yeahdongcn/UIColor-Hex-Swift) by [@yeahdongcn](https://github.com/yeahdongcn/)
+- Font [OpenSans](http://www.fontsquirrel.com/fonts/open-sans)
 - Inspiration from [What color is it?](http://whatcolourisit.scn9a.org/)
